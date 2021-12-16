@@ -1,0 +1,160 @@
+body {
+  /* width: 1440px; */
+  background: url(images/pattern-background-desktop.svg) no-repeat center
+    center/cover;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(191, 41%, 90%);
+
+  /* margin: 0 auto; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  text-align: center;
+  background: #fff;
+  max-width: 40rem;
+  margin: 20rem auto;
+  border-radius: 25px;
+}
+
+.container .pic img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+h1 {
+  padding: none;
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+h1,
+strong {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900px;
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+}
+
+.link a {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.topp {
+  color: hsl(224, 24%, 55%);
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.fig {
+  color: hsl(224, 24%, 55%);
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.topp.pone {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.text-box {
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: hsl(225, 100%, 98%);
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 10px;
+  height: 80px;
+}
+
+.two {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 70px;
+  padding-top: 10px;
+}
+
+img.img {
+  padding-top: 20px;
+  padding-left: 8px;
+  padding-bottom: 20px;
+}
+
+/* buttons */
+.button {
+  cursor: pointer;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border: none;
+}
+
+.button:focus {
+  outline: none;
+}
+.btn {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.btn .btn-1 {
+  color: #fff;
+  background: hsl(245, 75%, 52%);
+  border: none;
+  margin-top: 20px;
+  padding: 15px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.btn-1:hover {
+  opacity: 0.5;
+  box-shadow: 0 1.4rem 1.4rem rgba(0, 0, 0, 0.4);
+}
+
+.btn .btn-2 {
+  /* border: 1px solid transparent; */
+  color: hsl(224, 24%, 55%);
+  background: #fff;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-radius: 10px;
+  font-size: 1.8rem;
+}
+
+.btn-2:hover {
+  opacity: 0.9;
+  border: 1px solid hsl(245, 75%, 52%);
+  color: #000;
+  border: none;
+}
+
+.attribution {
+  font-size: 1.4rem;
+}
+
+.link a:hover {
+  text-decoration: none;
+}
